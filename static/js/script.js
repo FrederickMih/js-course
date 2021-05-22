@@ -12,3 +12,10 @@ function ageInDays(){
 function reset() {
    document.getElementById('ageInDays').remove();
 }
+
+function generateCat() {
+   var image = document.createElement('img');
+   var div = document.getElementById('flex-cat-gen');
+   image.src = 'static/images/image2.jpg';
+   div.appendChild(image);
+}
